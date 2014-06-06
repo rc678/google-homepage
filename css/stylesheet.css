@@ -1,0 +1,18 @@
+/*CSS Stylesheet for google homepage clone*/
+
+#header {
+    margin:0px 50px 50px 50px;
+    float:right;
+}
+
+.div.dropdown * {
+    margin:20px;
+    float:right;
+    border-color: black;
+    border-style:solid;
+}
+
+img{
+    float:center;
+    margin:100px 0px 50px 50px;
+}
