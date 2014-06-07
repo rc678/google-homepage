@@ -1,18 +1,63 @@
 /*CSS Stylesheet for google homepage clone*/
-
-#header {
-    margin:0px 50px 50px 50px;
+#header{
     float:right;
+    margin:10px;
+    font-size: 12px;
 }
 
-.div.dropdown * {
-    margin:20px;
-    float:right;
-    border-color: black;
-    border-style:solid;
+#header div{
+	margin:10px;
+	float:left;
 }
 
-img{
+#sign{
+    background-color:#4285F4;
+    text-decoration:none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    height:30px;
+    width:80px;
+    font-weight:bold;
+    display:inline-block;
+    text-align:center;
+    line-height: 30px;
+}
+
+#logo{
     float:center;
-    margin:100px 0px 50px 50px;
+    margin:10px;
+    padding-top:200px;
+    padding-left:500px;
+}
+#logo img{
+    height:100px;
+    width:280px;
+}
+
+form{
+    float:center;
+    padding-left:500px;
+}
+
+footer{
+    float:left;
+    margin:10px;
+}
+
+#left{
+    float:left;
+    margin:10px;
+    padding-right: 400px;
+}
+#left a{
+    margin:5px;
+}
+#right{
+    float:right;
+    margin:10px;
+    padding-left: 400px;
+}
+#right a{
+    margin:5px;
 }
