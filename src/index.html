@@ -7,10 +7,10 @@
 
     <body>
         <div id="header">
-            <div><a href=""https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX>+You</a></div>
-            <div><a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1">"Gmail</a></div>
-            <div> Images</div>
-            <div id="sign"><a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/webhp%3Ftab%3Dww%26ei%3DsYOSU4H8B8rQsQTyloHIBg%26ved%3D0CBMQ1S4">Sign in</a></div>
+            <div id="otherButton" ><a href=""https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX>+You</a></div>
+            <div id="otherButton"><a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1">"Gmail</a></div>
+            <div id="otherButton"><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=ZEmaU6qgAYfTsQTuh4HQCQ&ved=0CAQQqi4oAg"> Images</a></div>
+            <div id="sign"><a id="signText" href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/webhp%3Ftab%3Dww%26ei%3DsYOSU4H8B8rQsQTyloHIBg%26ved%3D0CBMQ1S4">Sign in</a></div>
         </div>
         <!--Picture of the google logo-->
         
@@ -21,11 +21,16 @@
         <!--Google search box-->
         <form action="#" method="POST" name="searchBox">
             <input type="text" name="search">
-                <input type="submit" value="Search">
-                <input type="submit" value="I'm feeling lucky"> 
         </form>
         
-        <footer>
+        <div id="buttons">
+            <div id="button1"> Google Search </div>
+            <div id="button2"> I'm Feeling lucky </div>
+        </div>   
+    
+        <!--bottom of webpage-->
+            
+        <div id="foot">
             <div id="left">
                 <a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
                 <a href="https://www.google.com/services/?fg=1">Business</a>
@@ -37,6 +42,6 @@
                 <a href="https://www.google.com/preferences?hl=en">Settings</a>
             </div>
         
-        </footer> 
+        </div> 
     </body>
 </html>
