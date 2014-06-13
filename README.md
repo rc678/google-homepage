@@ -1,4 +1,4 @@
 google-homepage
 ===============
 
-Building google hompage to practice web development skills. 
+Building google hompage to practice html and css.
